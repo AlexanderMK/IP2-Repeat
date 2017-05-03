@@ -1,0 +1,56 @@
+.landing {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  bottom: 60px;
+  left: 500px;
+  z-index: 2;
+}
+absolute-text {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+#images_hz {
+  padding: 0;
+  width: 960px;
+  height: auto;
+  overflow: hidden;
+}
+#images_hz img {
+  display: inline;
+}
+
+.other {
+  background: grey;
+}
+
+.other2 {
+  background: orange;
+}
+
+h2{
+  text-align: right;
+}
+p.desc-text{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+}
+
+.text-content.container {
+    margin-top: 65px;
+    margin-bottom: -51px;
+}
+.right-text p{
+    text-align: left !important;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
